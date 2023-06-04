@@ -1,6 +1,13 @@
+"""
+Author:         Mauricio Beltran
+Date:           06/04/2023
+Functionality:
 
+This code provides functionality for reading portfolio data from a CSV file and stock data from a JSON file. 
+It also defines classes for representing investments and investors. The code allows for extracting portfolio symbols, 
+creating investment objects, and retrieving a list of symbols from the portfolio.
 
-
+"""
 import csv
 from datetime import datetime
 import json
