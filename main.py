@@ -1,8 +1,3 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import sqlite3
-import portfolio
-
 """
 Author:         Mauricio Beltran
 Date:           06/04/2023
@@ -13,6 +8,12 @@ calculates daily and cumulative returns, and visualizes the cumulative returns o
 the stocks in the portfolio over time.
 
 """
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import sqlite3
+import portfolio
+
 
 try:
     # Create a connection to the database
