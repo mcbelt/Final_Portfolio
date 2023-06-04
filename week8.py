@@ -1,3 +1,13 @@
+"""
+Author:         Mauricio Beltran
+Date:           5/26/2023
+Functionality:
+
+This functionality combines reading data from files, processing and calculating portfolio values,
+storing data in an SQLite database, and generating a line plot using matplotlib.
+
+"""
+
 import json
 from datetime import datetime
 import matplotlib.pyplot as plt
